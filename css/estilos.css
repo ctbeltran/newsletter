@@ -1,0 +1,60 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5; }
+
+.Newsletter {
+  background: #1f2c3b;
+  color: #FFF;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .Newsletter-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 400; }
+    .Newsletter-title span {
+      color: #33b3cc;
+      font-weight: 300;
+      font-size: 1.5rem; }
+  .Newsletter-description {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem; }
+  .Newsletter-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .Newsletter-form-in {
+      width: 30rem;
+      height: 2.75rem;
+      border-radius: 2.75rem;
+      border: solid transparent .25rem;
+      padding-left: 1rem;
+      margin-bottom: 1.5rem; }
+      .Newsletter-form-in::placeholder {
+        font-size: 1rem; }
+    .Newsletter-form-btn {
+      font-family: "Montserrat", sans-serif;
+      width: 15rem;
+      height: 2.75rem;
+      background: transparent;
+      border: 1px solid #25a7b3;
+      border-radius: 2.75rem;
+      color: #FFF;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background .3s ease; }
+      .Newsletter-form-btn:hover {
+        background: #25a7b3; }
